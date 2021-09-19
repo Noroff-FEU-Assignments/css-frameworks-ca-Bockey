@@ -1,0 +1,97 @@
+.contactMain{
+    .formHeading{
+        @extend .newsHeading;
+        @media (max-width:768px){
+            width: 90%;
+            margin-left: 5%;
+        }
+        
+    }
+    
+    .formContainer {
+        form{
+            background-color: map-get($colors, navigationColor );
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.04);
+            max-width: 768px;
+            padding: 2rem 0;
+            margin-bottom: 5rem;
+            label{
+                font-size: 1.25rem;
+            }
+            .form-control{
+                border: none;
+                height: 56px;
+                margin-bottom: 1rem;
+            }
+            .input-group-text{
+                border-radius: 4px 0 0 4px;
+                height: 56px;
+                border: none;
+                background-color: #C7C7C7;
+                color: map-get($colors, white );
+            }
+            #formBasicTextarea{
+                min-height: 224px;
+            }
+            .form-check{
+                margin: 1rem 0;
+                display: flex;
+                align-items: center;
+                #formBasicCheckbox{
+                    flex-shrink: 0;
+                    height: 34px;
+                    width: 33px;
+                    margin-right: 0.5rem;
+                    margin-top: 0;
+                    border: none;
+                    background-color: map-get($colors, primary );
+                }
+                label{
+                    font-size: 15px;
+                }
+            }
+            button{
+                width: 100%;
+                background-color: map-get($colors, textColor );
+                border: none;
+                font-size: 22px;
+                &:hover{
+                    background-color: rgba(map-get($colors, textColor ), 0.5);
+                }
+            }
+        }
+        @media(min-width: 768px){
+            .col-md-6{
+                margin-top: 3.5rem;
+                padding-left: 3rem;
+            }
+            .col-md-6 + .col-md-6{
+                margin-top: 0;
+                padding-left: 0;
+            }
+        }
+      
+       @media (max-width:769px) {
+           margin: 0;
+           max-width: 100%;
+           width: 100%;
+           padding: 0;
+       
+            .row{
+                width: 100%;
+                margin: 0;
+                justify-content: center;
+                .col-md-6{
+                    width: 90%;
+                }
+                .col-md-6 + .col-md-6{
+                    width: 100%;
+                }
+                & > *{
+                    padding: 0;
+                } 
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,6 @@
+.newsHeading{
+    color: map-get($colors, primary );
+    font-size: 34px;
+    font-family: $fontPrimary;
+    margin: 2rem 0;
+}

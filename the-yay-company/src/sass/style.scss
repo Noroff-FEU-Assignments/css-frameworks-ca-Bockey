@@ -1,0 +1,21 @@
+
+$font-family-sans-serif: "Lato", sans-serif;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/variables";
+@import "./partials/layout";
+@import "./partials/typography";
+@import "./partials/carousel";
+@import "./partials/base";
+@import "./partials/navigation";
+@import "./partials/textHome";
+@import "./partials/tabsHome";
+@import "./partials/accordionHome";
+@import "./partials/footer";
+@import "./partials/headingNews";
+@import "./partials/cardNews";
+@import "./partials/paginationNews";
+@import "./partials/infoContact";
+@import "./partials/formContact";
+

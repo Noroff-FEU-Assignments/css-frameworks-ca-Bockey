@@ -1,0 +1,15 @@
+
+.textHome{
+    h1{
+        color: map-get($colors, primary);
+        margin-top: 1rem;
+        font-size: 34px;
+        font-weight: normal;
+        font-family: $fontPrimary;
+    }
+    p{
+        color: map-get($colors, textColr );
+        margin-bottom: 3rem;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,53 @@
+.accordion{
+    margin-bottom: 5rem;
+    .card{
+        background: map-get($colors, backgroundColor);
+        border: none;
+        &:nth-child(1) .card-header{
+            border-radius: 10px 10px 0 0;
+        }
+        &:nth-child(3) .card-header{
+            border-radius: 0 0 10px 10px;
+        }
+        .show{
+            border-top: 1px solid map-get($colors, primary );
+            box-shadow: 0 -9px 0 0 map-get($colors, white );
+            
+            }
+            .card-body{
+                padding: 1rem 2rem;
+                p{
+                    font-size: 16px;
+                }
+                img{
+                    width: 95%;
+                    margin-left: 2.5%;
+                }
+                .acc-links{
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    color: map-get($colors, links );
+                    a{
+                        margin: 0.5rem;
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+        }
+        .card-header{
+            background-color: map-get($colors, white );
+            .btn{
+                text-decoration: none;
+                color: map-get($colors, primary );
+                font-size: 19px;
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,6 @@
+body{
+    color: map-get($colors, textColor );
+}
+#root{
+    background: map-get($colors, backgroundColor );
+}
