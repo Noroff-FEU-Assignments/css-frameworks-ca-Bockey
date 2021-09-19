@@ -13,55 +13,55 @@ import AccordionLinks from './AccordionLinks';
 
 function TabsHome() {
     return (
-        <Container className="d-none d-md-block">
-           <Tabs defaultActiveKey="first" id="uncontrolled-tab-example">
-                <Tab eventKey="first" title="First">
-                    <Container>
-                        <Row>
-                            <Col md={4}><Image src={Tab1} fluid /></Col>
-                            <Col md={8}>  
-                                <p>
-                                    Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, 
-                                    venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. 
-                                    Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.    
-                                </p>
-                                <AccordionLinks />
-                            </Col>
-                        </Row>
-                    </Container>    
-                </Tab>
-                <Tab eventKey="second" title="Second">
-                    <Container>
-                        <Row>
-                            <Col md={4}><Image src={Tab2} fluid /></Col>
-                            <Col md={8}>  
-                                <p>
-                                    Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, 
-                                    venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. 
-                                    Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.    
-                                </p>
-                                <AccordionLinks />
-                            </Col>
-                        </Row>
-                    </Container>
-                </Tab>
-                <Tab eventKey="third" title="Third">
-                    <Container>
-                        <Row>
-                            <Col md={4}><Image src={Tab3} fluid /></Col>
-                            <Col md={8}>  
-                                <p>
-                                    Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, 
-                                    venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. 
-                                    Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.    
-                                </p>
-                                <AccordionLinks />
-                            </Col>
-                        </Row>
-                    </Container>
-                </Tab>
-            </Tabs> 
-        </Container>
+            <Container className="d-none d-md-block">
+            <Tabs defaultActiveKey="first" id="uncontrolled-tab-example">
+                    <Tab eventKey="first" title="First">
+                        <Container>
+                            <Row>
+                                <Col md={4}><Image src={Tab1} alt="Old tv image." fluid /></Col>
+                                <Col md={8}>  
+                                    <p>
+                                        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, 
+                                        venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. 
+                                        Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.    
+                                    </p>
+                                    <AccordionLinks />
+                                </Col>
+                            </Row>
+                        </Container>    
+                    </Tab>
+                    <Tab eventKey="second" title="Second">
+                        <Container>
+                            <Row>
+                                <Col md={4}><Image src={Tab2} alt="Images on the wall." fluid /></Col>
+                                <Col md={8}>  
+                                    <p>
+                                        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, 
+                                        venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. 
+                                        Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.    
+                                    </p>
+                                    <AccordionLinks />
+                                </Col>
+                            </Row>
+                        </Container>
+                    </Tab>
+                    <Tab eventKey="third" title="Third">
+                        <Container>
+                            <Row>
+                                <Col md={4}><Image src={Tab3} alt="Broken window." fluid /></Col>
+                                <Col md={8}>  
+                                    <p>
+                                        Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, 
+                                        venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. 
+                                        Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.    
+                                    </p>
+                                    <AccordionLinks />
+                                </Col>
+                            </Row>
+                        </Container>
+                    </Tab>
+                </Tabs> 
+            </Container>
     )
 }
 

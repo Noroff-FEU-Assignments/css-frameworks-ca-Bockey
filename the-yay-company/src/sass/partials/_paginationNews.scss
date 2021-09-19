@@ -2,7 +2,6 @@
     .pagination{
         margin: 2rem 0 0 0;
         .page-item{
-            
             .page-link{
                 color: map-get($colors, primary );
                 border: 1px solid map-get($colors, primary );

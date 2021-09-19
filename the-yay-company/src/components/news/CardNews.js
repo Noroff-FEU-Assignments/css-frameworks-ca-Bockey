@@ -22,7 +22,7 @@ function CardNews() {
                 <Row>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src={NewsImg1} />
+                            <Card.Img variant="top" src={NewsImg1} alt="Old tv."/>
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
                                 <Card.Text>
@@ -34,7 +34,7 @@ function CardNews() {
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src={NewsImg2} />
+                            <Card.Img variant="top" src={NewsImg2} alt="Old camera."/>
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
                                 <Card.Text>
@@ -46,7 +46,7 @@ function CardNews() {
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src={NewsImg3} />
+                            <Card.Img variant="top" src={NewsImg3} alt="Old tv."/>
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
                                 <Card.Text>
@@ -58,7 +58,7 @@ function CardNews() {
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src={NewsImg4} />
+                            <Card.Img variant="top" src={NewsImg4} alt="Old camera."/>
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
                                 <Card.Text>
@@ -72,7 +72,7 @@ function CardNews() {
                 <Row>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src={NewsImg5} />
+                            <Card.Img variant="top" src={NewsImg5} alt="Old tv."/>
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
                                 <Card.Text>
@@ -84,7 +84,7 @@ function CardNews() {
                     </Col>
                     <Col>
                     <Card>
-                        <Card.Img variant="top" src={NewsImg6} />
+                        <Card.Img variant="top" src={NewsImg6} alt="Old camera."/>
                         <Card.Body>
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Card.Text>
@@ -96,7 +96,7 @@ function CardNews() {
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src={NewsImg7} />
+                            <Card.Img variant="top" src={NewsImg7} alt="Old camera."/>
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
                                 <Card.Text>
@@ -108,7 +108,7 @@ function CardNews() {
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src={NewsImg8} />
+                            <Card.Img variant="top" src={NewsImg8} alt="Old gramophone."/>
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
                                 <Card.Text>
